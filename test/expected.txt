@@ -1,0 +1,18 @@
+two_sequences.fasta
+2	7	14
+A	8
+C	3
+G	2
+N	1
+T	7
+one_sequence.fasta
+1	12	12
+A	1
+D	1
+N	1
+h	1
+i	2
+n	1
+o	1
+s	2
+t	2
