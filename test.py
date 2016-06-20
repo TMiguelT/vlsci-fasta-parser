@@ -7,4 +7,4 @@ class BasicTestCase(unittest.TestCase):
         self.parser = FastaParser('two_sequences.fasta')
 
     def test_output(self):
-        assert(self.parser.parse() == '2  7  14')
+        assert(self.parser.parse() == '2\t7\t14')

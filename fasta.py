@@ -21,7 +21,7 @@ class FastaParser:
             if length > seq_max:
                 seq_max = length
 
-        return "{}  {}  {}".format(seq_count, seq_min, seq_max)
+        return "{}\t{}\t{}".format(seq_count, seq_min, seq_max)
 
 
 if __name__ == '__main__':
